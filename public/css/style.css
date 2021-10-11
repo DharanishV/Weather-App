@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: aliceblue;
+  height: 100%;
+}
+
+.container {
+  background-image: url("https://cutewallpaper.org/21/1024x768-hd/1024x768-Pubg-Illustration-4k-1024x768-Resolution-HD-4k-.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  padding-top: 50px;
+
+}
+/*
+header {
+  background: #111;
+  height: 3rem;
+  width: 100%;
+  position: relative;
+}
+
+header .compass-icon {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  transform: translate(-50%);
+  border-radius: 50%;
+}  */
+
+.weather-title {
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+}
+
+.weather-title h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+form {
+  padding: 2rem ;
+  text-align: center;
+  color: aliceblue;
+}
+
+form input {
+  width: 50%;
+  height: 2rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid #807a7a;
+}
+
+form p {
+  padding: 20px;
+  font-size: large;
+}
+
+.result {
+  text-align: center;
+  color: aliceblue;
+}
+
+.result .temp {
+  font-size: 2rem;
+  margin-top: 2rem;
+  position: relative;
+  color: aliceblue;
+}
+
+.result .temp::after {
+  content: 'o';
+  position: absolute;
+  font-size: 15px;
+  top: -5px;
+  right: 7rem;
+  color: aliceblue;
+}
+
+.result .icon-des {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result .icon-des .icon {
+  margin-right: 1rem;
+}
+
+.result .city {
+  font-size: 1rem;
+  color: aliceblue;
+}
